@@ -9,7 +9,7 @@ import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
-public class ValidateResponseTime {
+public class ValidateResponseTimeTest {
     @Test
     public void responseTimeUsingResponseOptions() {
         String payload = "{\"username\" : \"admin\",\"password\" : \"password123\"}";

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.rest.tests.AutomateBookingAPITest">
+        <methods>
+          <include name="partialUpdateBooking"/>
+          <include name="getBookingIds"/>
+        </methods>
+      </class> <!-- com.rest.tests.AutomateBookingAPITest -->
+      <class name="com.rest.tests.RequestResponseSpecificationTest">
+        <methods>
+          <include name="getBookingIds"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.rest.tests.RequestResponseSpecificationTest -->
+      <class name="com.rest.tests.RequestResponseBuilderTest">
+        <methods>
+          <include name="getBookingIds"/>
+          <include name="beforeClass"/>
+          <include name="sendJSONObjectAsMap"/>
+          <include name="validateJsonSchema"/>
+        </methods>
+      </class> <!-- com.rest.tests.RequestResponseBuilderTest -->
+      <class name="com.rest.tests.ValidateResponseTimeTest">
+        <methods>
+          <include name="responseTimeUsingValidatableResponseOptionsMethods"/>
+        </methods>
+      </class> <!-- com.rest.tests.ValidateResponseTimeTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num attn">7</td><td class="num">37,433</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.rest.tests.AutomateBookingAPITest</td><td><a href="#m0">getBookingIds</a></td><td rowspan="1">1626702896394</td><td rowspan="1">2006</td></tr><tr class="failedeven"><td><a href="#m1">partialUpdateBooking</a></td><td rowspan="1">1626702898414</td><td rowspan="1">2096</td></tr><tr class="failedodd"><td rowspan="3">com.rest.tests.RequestResponseBuilderTest</td><td><a href="#m2">getBookingIds</a></td><td rowspan="1">1626702906570</td><td rowspan="1">1718</td></tr><tr class="failedodd"><td><a href="#m3">sendJSONObjectAsMap</a></td><td rowspan="1">1626702908296</td><td rowspan="1">1934</td></tr><tr class="failedodd"><td><a href="#m4">validateJsonSchema</a></td><td rowspan="1">1626702912205</td><td rowspan="1">2261</td></tr><tr class="failedeven"><td rowspan="1">com.rest.tests.RequestResponseSpecificationTest</td><td><a href="#m5">getBookingIds</a></td><td rowspan="1">1626702916179</td><td rowspan="1">2042</td></tr><tr class="failedodd"><td rowspan="1">com.rest.tests.ValidateResponseTimeTest</td><td><a href="#m6">responseTimeUsingValidatableResponseOptionsMethods</a></td><td rowspan="1">1626702922329</td><td rowspan="1">2065</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.rest.tests.AutomateBookingAPITest</td><td><a href="#m7">authToken</a></td><td rowspan="1">1626702887027</td><td rowspan="1">5106</td></tr><tr class="passedeven"><td><a href="#m8">createBooking</a></td><td rowspan="1">1626702892225</td><td rowspan="1">2166</td></tr><tr class="passedeven"><td><a href="#m9">deleteBooking</a></td><td rowspan="1">1626702894398</td><td rowspan="1">1996</td></tr><tr class="passedeven"><td><a href="#m10">updateBooking</a></td><td rowspan="1">1626702900513</td><td rowspan="1">2027</td></tr><tr class="passedeven"><td><a href="#m11">validateStatusCode</a></td><td rowspan="1">1626702902542</td><td rowspan="1">2036</td></tr><tr class="passedodd"><td rowspan="2">com.rest.tests.RequestResponseBuilderTest</td><td><a href="#m12">authToken</a></td><td rowspan="1">1626702904603</td><td rowspan="1">1965</td></tr><tr class="passedodd"><td><a href="#m13">sendPayloadAsFile</a></td><td rowspan="1">1626702910237</td><td rowspan="1">1958</td></tr><tr class="passedeven"><td rowspan="2">com.rest.tests.RequestResponseSpecificationTest</td><td><a href="#m14">authToken</a></td><td rowspan="1">1626702914473</td><td rowspan="1">1702</td></tr><tr class="passedeven"><td><a href="#m15">partialUpdateBooking</a></td><td rowspan="1">1626702918225</td><td rowspan="1">2027</td></tr><tr class="passedodd"><td rowspan="1">com.rest.tests.ValidateResponseTimeTest</td><td><a href="#m16">responseTimeUsingResponseOptions</a></td><td rowspan="1">1626702920266</td><td rowspan="1">2037</td></tr></tbody>
+</table>
+<h2>Surefire test</h2><h3 id="m0">com.rest.tests.AutomateBookingAPITest#getBookingIds</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: &lt;14&gt;
+     but: was &lt;12&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.rest.tests.AutomateBookingAPITest.getBookingIds(AutomateBookingAPITest.java:48)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.rest.tests.AutomateBookingAPITest#partialUpdateBooking</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;405&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at com.rest.tests.AutomateBookingAPITest.partialUpdateBooking(AutomateBookingAPITest.java:127)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 47 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.rest.tests.RequestResponseBuilderTest#getBookingIds</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: &quot;8&quot;
+     but: was &quot;12&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.rest.tests.RequestResponseBuilderTest.getBookingIds(RequestResponseBuilderTest.java:66)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.rest.tests.RequestResponseBuilderTest#sendJSONObjectAsMap</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: Expected response body to be verified as JSON, HTML or XML but content-type &apos;text/plain&apos; is not supported out of the box.
+Try registering a custom parser using:
+   RestAssured.registerParser(&quot;text/plain&quot;, &lt;parser type&gt;);
+Content was:
+Method Not Allowed
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.assertion.StreamVerifier.newAssertion(StreamVerifier.groovy:49)
+	at io.restassured.assertion.StreamVerifier$newAssertion.call(Unknown Source)
+	at io.restassured.assertion.BodyMatcher.validate(BodyMatcher.groovy:85)
+	at io.restassured.assertion.BodyMatcher$validate$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at io.restassured.assertion.BodyMatcher$validate$0.call(Unknown Source)
+	at io.restassured.assertion.BodyMatcherGroup$_validate_closure2.doCall(BodyMatcherGroup.groovy:47)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:263)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1035)
+	at groovy.lang.Closure.call(Closure.java:412)
+	at groovy.lang.Closure.call(Closure.java:428)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.collect(DefaultGroovyMethods.java:3562)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.collect(DefaultGroovyMethods.java:3547)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.collect(DefaultGroovyMethods.java:3647)
+	at org.codehaus.groovy.runtime.dgm$101.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:247)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:56)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.assertion.BodyMatcherGroup.validate(BodyMatcherGroup.groovy:47)
+	at io.restassured.assertion.BodyMatcherGroup$validate$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at io.restassured.assertion.BodyMatcherGroup$validate$3.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:480)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at com.rest.tests.RequestResponseBuilderTest.sendJSONObjectAsMap(RequestResponseBuilderTest.java:93)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 52 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.rest.tests.RequestResponseBuilderTest#validateJsonSchema</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">io.restassured.module.jsv.JsonSchemaValidationException: com.fasterxml.jackson.core.JsonParseException: Unrecognized token &apos;Method&apos;: was expecting (JSON String, Number, Array, Object or token &apos;null&apos;, &apos;true&apos; or &apos;false&apos;)
+ at [Source: (StringReader); line: 1, column: 7]
+	at io.restassured.module.jsv.JsonSchemaValidator.matchesSafely(JsonSchemaValidator.java:233)
+	at io.restassured.module.jsv.JsonSchemaValidator.matchesSafely(JsonSchemaValidator.java:75)
+	at org.hamcrest.TypeSafeMatcher.matches(TypeSafeMatcher.java:67)
+	at org.hamcrest.Matcher$matches.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.assertion.BodyMatcher.validate(BodyMatcher.groovy:76)
+	at io.restassured.assertion.BodyMatcher$validate$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at io.restassured.assertion.BodyMatcher$validate$0.call(Unknown Source)
+	at io.restassured.assertion.BodyMatcherGroup$_validate_closure2.doCall(BodyMatcherGroup.groovy:47)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:263)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1035)
+	at groovy.lang.Closure.call(Closure.java:412)
+	at groovy.lang.Closure.call(Closure.java:428)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.collect(DefaultGroovyMethods.java:3562)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.collect(DefaultGroovyMethods.java:3547)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.collect(DefaultGroovyMethods.java:3647)
+	at org.codehaus.groovy.runtime.dgm$101.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:247)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:56)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.assertion.BodyMatcherGroup.validate(BodyMatcherGroup.groovy:47)
+	at io.restassured.assertion.BodyMatcherGroup$validate$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at io.restassured.assertion.BodyMatcherGroup$validate$3.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:480)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:98)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:293)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at com.rest.tests.RequestResponseBuilderTest.validateJsonSchema(RequestResponseBuilderTest.java:105)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token &apos;Method&apos;: was expecting (JSON String, Number, Array, Object or token &apos;null&apos;, &apos;true&apos; or &apos;false&apos;)
+ at [Source: (StringReader); line: 1, column: 7]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2337)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:720)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2903)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1949)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:781)
+	at com.fasterxml.jackson.databind.MappingIterator.hasNextValue(MappingIterator.java:243)
+	at com.github.fge.jackson.JsonNodeReader.readNode(JsonNodeReader.java:149)
+	at com.github.fge.jackson.JsonNodeReader.fromReader(JsonNodeReader.java:129)
+	at com.github.fge.jackson.JsonLoader.fromReader(JsonLoader.java:186)
+	at com.github.fge.jackson.JsonLoader.fromString(JsonLoader.java:199)
+	at io.restassured.module.jsv.JsonSchemaValidator.matchesSafely(JsonSchemaValidator.java:214)
+	... 92 more
+... Removed 46 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.rest.tests.RequestResponseSpecificationTest#getBookingIds</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+Expected: &quot;4&quot;
+     but: was &quot;12&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.rest.tests.RequestResponseSpecificationTest.getBookingIds(RequestResponseSpecificationTest.java:56)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.rest.tests.ValidateResponseTimeTest#responseTimeUsingValidatableResponseOptionsMethods</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
+Expected response time was not a value less than &lt;1000L&gt; milliseconds, was 2014 milliseconds (2014 milliseconds).
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.time(ResponseSpecificationImpl.groovy:118)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.time(ValidatableResponseOptionsImpl.java:409)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$time(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.time(ValidatableResponseImpl.groovy:58)
+	at io.restassured.internal.ValidatableResponseImpl.time(ValidatableResponseImpl.groovy)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.time(ValidatableResponseOptionsImpl.java:405)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$time(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.time(ValidatableResponseImpl.groovy:52)
+	at io.restassured.internal.ValidatableResponseImpl.time(ValidatableResponseImpl.groovy)
+	at com.rest.tests.ValidateResponseTimeTest.responseTimeUsingValidatableResponseOptionsMethods(ValidateResponseTimeTest.java:38)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 52 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.rest.tests.AutomateBookingAPITest#authToken</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.rest.tests.AutomateBookingAPITest#createBooking</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.rest.tests.AutomateBookingAPITest#deleteBooking</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.rest.tests.AutomateBookingAPITest#updateBooking</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.rest.tests.AutomateBookingAPITest#validateStatusCode</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.rest.tests.RequestResponseBuilderTest#authToken</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.rest.tests.RequestResponseBuilderTest#sendPayloadAsFile</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.rest.tests.RequestResponseSpecificationTest#authToken</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.rest.tests.RequestResponseSpecificationTest#partialUpdateBooking</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.rest.tests.ValidateResponseTimeTest#responseTimeUsingResponseOptions</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

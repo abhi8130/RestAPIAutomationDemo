@@ -1,4 +1,4 @@
-com\rest\tests\ValidateResponseTime.class
-com\rest\tests\RequestResponseBuilder.class
-com\rest\tests\RequestResponseSpecification.class
-com\rest\tests\AutomateBookingAPI.class
+com\rest\tests\AutomateBookingAPITest.class
+com\rest\tests\RequestResponseSpecificationTest.class
+com\rest\tests\RequestResponseBuilderTest.class
+com\rest\tests\ValidateResponseTimeTest.class

@@ -19,7 +19,7 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInC
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 
-public class RequestResponseBuilder {
+public class RequestResponseBuilderTest {
     RequestSpecification requestSpecification;
     ResponseSpecification responseSpecification;
     public static String getToken;

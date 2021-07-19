@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 38.664 s <<< FAILURE! - in TestSuite
+com.rest.tests.AutomateBookingAPITest.getBookingIds  Time elapsed: 2 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <14>
+     but: was <12>
+	at com.rest.tests.AutomateBookingAPITest.getBookingIds(AutomateBookingAPITest.java:48)
+
+com.rest.tests.AutomateBookingAPITest.partialUpdateBooking  Time elapsed: 2.117 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <405>.
+
+	at com.rest.tests.AutomateBookingAPITest.partialUpdateBooking(AutomateBookingAPITest.java:127)
+
+com.rest.tests.RequestResponseBuilderTest.getBookingIds  Time elapsed: 1.726 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: "8"
+     but: was "12"
+	at com.rest.tests.RequestResponseBuilderTest.getBookingIds(RequestResponseBuilderTest.java:66)
+
+com.rest.tests.RequestResponseBuilderTest.sendJSONObjectAsMap  Time elapsed: 1.958 s  <<< FAILURE!
+java.lang.IllegalStateException: 
+Expected response body to be verified as JSON, HTML or XML but content-type 'text/plain' is not supported out of the box.
+Try registering a custom parser using:
+   RestAssured.registerParser("text/plain", <parser type>);
+Content was:
+Method Not Allowed
+
+	at com.rest.tests.RequestResponseBuilderTest.sendJSONObjectAsMap(RequestResponseBuilderTest.java:93)
+
+com.rest.tests.RequestResponseBuilderTest.validateJsonSchema  Time elapsed: 2.245 s  <<< FAILURE!
+io.restassured.module.jsv.JsonSchemaValidationException: 
+com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'Method': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (StringReader); line: 1, column: 7]
+	at com.rest.tests.RequestResponseBuilderTest.validateJsonSchema(RequestResponseBuilderTest.java:105)
+Caused by: com.fasterxml.jackson.core.JsonParseException: 
+Unrecognized token 'Method': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (StringReader); line: 1, column: 7]
+	at com.rest.tests.RequestResponseBuilderTest.validateJsonSchema(RequestResponseBuilderTest.java:105)
+
+com.rest.tests.RequestResponseSpecificationTest.getBookingIds  Time elapsed: 2.043 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: "4"
+     but: was "12"
+	at com.rest.tests.RequestResponseSpecificationTest.getBookingIds(RequestResponseSpecificationTest.java:56)
+
+com.rest.tests.ValidateResponseTimeTest.responseTimeUsingValidatableResponseOptionsMethods  Time elapsed: 2.074 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected response time was not a value less than <1000L> milliseconds, was 2014 milliseconds (2014 milliseconds).
+	at com.rest.tests.ValidateResponseTimeTest.responseTimeUsingValidatableResponseOptionsMethods(ValidateResponseTimeTest.java:38)
+
