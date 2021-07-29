@@ -120,7 +120,7 @@ public class AutomateBookingAPITest {
                 body(payload).
                 log().all().
         when().
-                patch("/booking/15").
+                patch("/booking/19").
         then().
                 log().all().
                 assertThat().
@@ -135,7 +135,7 @@ public class AutomateBookingAPITest {
                 header("Cookie","token="+ getToken).
                 log().all().
         when().
-                delete("/booking/10").
+                delete("/booking/17").
         then().
                 log().all().
                 assertThat().
