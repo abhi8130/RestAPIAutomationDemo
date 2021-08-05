@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="38.664" tests="17" errors="0" skipped="0" failures="7">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="36.092" tests="17" errors="0" skipped="0" failures="3">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Vandana\AppData\Local\Temp\surefire3310883995512492586\surefirebooter4033486038534840905.jar C:\Users\Vandana\AppData\Local\Temp\surefire3310883995512492586 2021-07-19T19-24-44_987-jvmRun1 surefire6113645056404751350tmp surefire_06455855123492541092tmp"/>
+    <property name="sun.java.command" value="C:\Users\Vandana\AppData\Local\Temp\surefire960683268376056237\surefirebooter6445795213835543822.jar C:\Users\Vandana\AppData\Local\Temp\surefire960683268376056237 2021-07-25T14-26-15_918-jvmRun1 surefire6036122897144361330tmp surefire_07695198836318824381tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Vandana\IdeaProjects\RestAPIAutomationDemo\target\test-classes;C:\Users\Vandana\IdeaProjects\RestAPIAutomationDemo\target\classes;C:\Users\Vandana\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\Vandana\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\Vandana\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\Vandana\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Vandana\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Vandana\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Vandana\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Vandana\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Vandana\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Vandana\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Vandana\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\Vandana\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\Vandana\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\Vandana\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\Vandana\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Vandana\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Vandana\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Vandana\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Vandana\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Vandana\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Vandana\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Vandana\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Vandana\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Vandana\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Vandana\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Vandana\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Vandana\.m2\repository\com\google\guava\guava\25.1-android\guava-25.1-android.jar;C:\Users\Vandana\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Vandana\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Vandana\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Vandana\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Vandana\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Vandana\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\Vandana\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\Vandana\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\Vandana\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\Vandana\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Vandana\.m2\repository\org\projectlombok\lombok\1.18.18\lombok-1.18.18.jar;C:\Users\Vandana\.m2\repository\io\qameta\allure\allure-testng\2.13.8\allure-testng-2.13.8.jar;C:\Users\Vandana\.m2\repository\io\qameta\allure\allure-java-commons\2.13.8\allure-java-commons-2.13.8.jar;C:\Users\Vandana\.m2\repository\io\qameta\allure\allure-model\2.13.8\allure-model-2.13.8.jar;C:\Users\Vandana\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Vandana\.m2\repository\org\apache\tika\tika-core\1.24.1\tika-core-1.24.1.jar;C:\Users\Vandana\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\Vandana\.m2\repository\io\qameta\allure\allure-rest-assured\2.13.8\allure-rest-assured-2.13.8.jar;C:\Users\Vandana\.m2\repository\io\qameta\allure\allure-attachments\2.13.8\allure-attachments-2.13.8.jar;C:\Users\Vandana\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Vandana\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Vandana\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Vandana\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Vandana\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Vandana\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Vandana\.m2\repository\io\rest-assured\json-schema-validator\4.3.3\json-schema-validator-4.3.3.jar;C:\Users\Vandana\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Vandana\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Vandana\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Vandana\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Vandana\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Vandana\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Vandana\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Vandana\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Vandana\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Vandana\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Vandana\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Vandana\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Vandana\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Vandana"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Vandana\AppData\Local\Temp\surefire3310883995512492586\surefirebooter4033486038534840905.jar;C:\Users\Vandana\.m2\repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Vandana\AppData\Local\Temp\surefire960683268376056237\surefirebooter6445795213835543822.jar;C:\Users\Vandana\.m2\repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -52,7 +52,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Program Files\apache-maven-3.8.1\bin;C:\Users\Vandana\scoop\shims;C:\Users\Vandana\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.3\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.3\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Program Files\apache-maven-3.8.1\bin;C:\Program Files\Git\cmd;C:\Users\Vandana\scoop\shims;C:\Users\Vandana\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.3\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.3\bin;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.291-b10"/>
@@ -60,40 +60,40 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="authToken" classname="com.rest.tests.AutomateBookingAPITest" time="5.113">
+  <testcase name="authToken" classname="com.rest.tests.AutomateBookingAPITest" time="6.858">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Server: Cowboy
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 27
-Etag: W/"1b-6lNqe1RUZLArgFpVm15vz0uOLOw"
-Date: Mon, 19 Jul 2021 13:54:51 GMT
+Etag: W/"1b-a8yjdz0vud/gPT16kQCOkVRUhCM"
+Date: Sun, 25 Jul 2021 08:56:22 GMT
 Via: 1.1 vegur
 
 {
-    "token": "b32fe5fc7351362"
+    "token": "ab9e0858cc31daf"
 }
-Token: b32fe5fc7351362
+Token: ab9e0858cc31daf
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="createBooking" classname="com.rest.tests.AutomateBookingAPITest" time="2.182">
+  <testcase name="createBooking" classname="com.rest.tests.AutomateBookingAPITest" time="2.045">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Server: Cowboy
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 195
-Etag: W/"c3-7xN6g7lKAzLxIMWQop8Kdv8pK1Y"
-Date: Mon, 19 Jul 2021 13:54:54 GMT
+Etag: W/"c3-/fHWC0OF9UP+CtAbl1CFVSOEifI"
+Date: Sun, 25 Jul 2021 08:56:26 GMT
 Via: 1.1 vegur
 
 {
-    "bookingid": 17,
+    "bookingid": 23,
     "booking": {
         "firstname": "Jim",
         "lastname": "Brown",
@@ -108,7 +108,7 @@ Via: 1.1 vegur
 }
 ]]></system-out>
   </testcase>
-  <testcase name="deleteBooking" classname="com.rest.tests.AutomateBookingAPITest" time="2.001">
+  <testcase name="deleteBooking" classname="com.rest.tests.AutomateBookingAPITest" time="1.82">
     <system-out><![CDATA[Request method:	DELETE
 Request URI:	https://restful-booker.herokuapp.com/booking/10
 Proxy:			<none>
@@ -116,7 +116,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Cookie=token=b32fe5fc7351362
+Headers:		Cookie=token=ab9e0858cc31daf
 				Accept=*/*
 				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
@@ -129,29 +129,23 @@ X-Powered-By: Express
 Content-Type: text/plain; charset=utf-8
 Content-Length: 7
 Etag: W/"7-rM9AyJuqT6iOan/xHh+AW+7K/T8"
-Date: Mon, 19 Jul 2021 13:54:56 GMT
+Date: Sun, 25 Jul 2021 08:56:28 GMT
 Via: 1.1 vegur
 
 Created
 ]]></system-out>
   </testcase>
-  <testcase name="getBookingIds" classname="com.rest.tests.AutomateBookingAPITest" time="2">
-    <failure message="&#10;Expected: &lt;14&gt;&#10;     but: was &lt;12&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+  <testcase name="getBookingIds" classname="com.rest.tests.AutomateBookingAPITest" time="1.676">
+    <failure message="&#10;Expected: &lt;14&gt;&#10;     but: was &lt;8&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 
 Expected: <14>
-     but: was <12>
+     but: was <8>
 	at com.rest.tests.AutomateBookingAPITest.getBookingIds(AutomateBookingAPITest.java:48)
 ]]></failure>
-    <system-out><![CDATA[BookingId: 12
+    <system-out><![CDATA[BookingId: 8
 ]]></system-out>
   </testcase>
-  <testcase name="partialUpdateBooking" classname="com.rest.tests.AutomateBookingAPITest" time="2.117">
-    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;405&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <200> but was <405>.
-
-	at com.rest.tests.AutomateBookingAPITest.partialUpdateBooking(AutomateBookingAPITest.java:127)
-]]></failure>
+  <testcase name="partialUpdateBooking" classname="com.rest.tests.AutomateBookingAPITest" time="1.7">
     <system-out><![CDATA[Request method:	PATCH
 Request URI:	https://restful-booker.herokuapp.com/booking/15
 Proxy:			<none>
@@ -159,7 +153,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Cookie=token=b32fe5fc7351362
+Headers:		Cookie=token=ab9e0858cc31daf
 				Accept=*/*
 				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
@@ -169,20 +163,30 @@ Body:
     "firstname": "Abhishek",
     "lastname": "Chauhan"
 }
-HTTP/1.1 405 Method Not Allowed
+HTTP/1.1 200 OK
 Server: Cowboy
 Connection: keep-alive
 X-Powered-By: Express
-Content-Type: text/plain; charset=utf-8
-Content-Length: 18
-Etag: W/"12-UGJMK66P4abaBlq0vKHJaCKuGCA"
-Date: Mon, 19 Jul 2021 13:55:00 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 175
+Etag: W/"af-/7hQfvGE2oPPIJr64Q8U+qnNDWo"
+Date: Sun, 25 Jul 2021 08:56:32 GMT
 Via: 1.1 vegur
 
-Method Not Allowed
+{
+    "firstname": "Abhishek",
+    "lastname": "Chauhan",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2013-02-23",
+        "checkout": "2014-10-23"
+    },
+    "additionalneeds": "Breakfast"
+}
 ]]></system-out>
   </testcase>
-  <testcase name="updateBooking" classname="com.rest.tests.AutomateBookingAPITest" time="2.036">
+  <testcase name="updateBooking" classname="com.rest.tests.AutomateBookingAPITest" time="1.607">
     <system-out><![CDATA[Request method:	PUT
 Request URI:	https://restful-booker.herokuapp.com/booking/1
 Proxy:			<none>
@@ -190,7 +194,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Cookie=token=b32fe5fc7351362
+Headers:		Cookie=token=ab9e0858cc31daf
 				Accept=*/*
 				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
@@ -214,7 +218,7 @@ X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 170
 Etag: W/"aa-tqLSjGkKpDnsFir+u+x33RTil0I"
-Date: Mon, 19 Jul 2021 13:55:02 GMT
+Date: Sun, 25 Jul 2021 08:56:33 GMT
 Via: 1.1 vegur
 
 {
@@ -230,8 +234,8 @@ Via: 1.1 vegur
 }
 ]]></system-out>
   </testcase>
-  <testcase name="validateStatusCode" classname="com.rest.tests.AutomateBookingAPITest" time="2.011"/>
-  <testcase name="authToken" classname="com.rest.tests.RequestResponseBuilderTest" time="1.967">
+  <testcase name="validateStatusCode" classname="com.rest.tests.AutomateBookingAPITest" time="1.504"/>
+  <testcase name="authToken" classname="com.rest.tests.RequestResponseBuilderTest" time="1.696">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://restful-booker.herokuapp.com/auth
 Proxy:			<none>
@@ -248,16 +252,10 @@ Body:
     "username": "admin",
     "password": "password123"
 }
-Token: 06a4f54ae77040b
+Token: c03d0a05090f252
 ]]></system-out>
   </testcase>
-  <testcase name="getBookingIds" classname="com.rest.tests.RequestResponseBuilderTest" time="1.726">
-    <failure message="&#10;Expected: &quot;8&quot;&#10;     but: was &quot;12&quot;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-
-Expected: "8"
-     but: was "12"
-	at com.rest.tests.RequestResponseBuilderTest.getBookingIds(RequestResponseBuilderTest.java:66)
-]]></failure>
+  <testcase name="getBookingIds" classname="com.rest.tests.RequestResponseBuilderTest" time="1.593">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://restful-booker.herokuapp.com/booking
 Proxy:			<none>
@@ -272,16 +270,7 @@ Multiparts:		<none>
 Body:			<none>
 ]]></system-out>
   </testcase>
-  <testcase name="sendJSONObjectAsMap" classname="com.rest.tests.RequestResponseBuilderTest" time="1.958">
-    <failure message="Expected response body to be verified as JSON, HTML or XML but content-type &apos;text/plain&apos; is not supported out of the box.&#10;Try registering a custom parser using:&#10;   RestAssured.registerParser(&quot;text/plain&quot;, &lt;parser type&gt;);&#10;Content was:&#10;Method Not Allowed&#10;" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: 
-Expected response body to be verified as JSON, HTML or XML but content-type 'text/plain' is not supported out of the box.
-Try registering a custom parser using:
-   RestAssured.registerParser("text/plain", <parser type>);
-Content was:
-Method Not Allowed
-
-	at com.rest.tests.RequestResponseBuilderTest.sendJSONObjectAsMap(RequestResponseBuilderTest.java:93)
-]]></failure>
+  <testcase name="sendJSONObjectAsMap" classname="com.rest.tests.RequestResponseBuilderTest" time="1.951">
     <system-out><![CDATA[Request method:	PATCH
 Request URI:	https://restful-booker.herokuapp.com/booking/15
 Proxy:			<none>
@@ -289,7 +278,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Cookie=token=06a4f54ae77040b
+Headers:		Cookie=token=c03d0a05090f252
 				Accept=*/*
 				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
@@ -299,20 +288,30 @@ Body:
     "firstname": "Nisha",
     "lastname": "Chauhan"
 }
-HTTP/1.1 405 Method Not Allowed
+HTTP/1.1 200 OK
 Server: Cowboy
 Connection: keep-alive
 X-Powered-By: Express
-Content-Type: text/plain; charset=utf-8
-Content-Length: 18
-Etag: W/"12-UGJMK66P4abaBlq0vKHJaCKuGCA"
-Date: Mon, 19 Jul 2021 13:55:10 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 172
+Etag: W/"ac-PlV7wJ6AsRuYl8UD8JJcSBsWxfw"
+Date: Sun, 25 Jul 2021 08:56:40 GMT
 Via: 1.1 vegur
 
-Method Not Allowed
+{
+    "firstname": "Nisha",
+    "lastname": "Chauhan",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2013-02-23",
+        "checkout": "2014-10-23"
+    },
+    "additionalneeds": "Breakfast"
+}
 ]]></system-out>
   </testcase>
-  <testcase name="sendPayloadAsFile" classname="com.rest.tests.RequestResponseBuilderTest" time="1.982">
+  <testcase name="sendPayloadAsFile" classname="com.rest.tests.RequestResponseBuilderTest" time="1.613">
     <system-out><![CDATA[Request method:	PATCH
 Request URI:	https://restful-booker.herokuapp.com/booking/15
 Proxy:			<none>
@@ -320,7 +319,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Cookie=token=06a4f54ae77040b
+Headers:		Cookie=token=c03d0a05090f252
 				Accept=*/*
 				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
@@ -329,16 +328,7 @@ Body:
 src\main\resources\SendPayloadAsFile.json
 ]]></system-out>
   </testcase>
-  <testcase name="validateJsonSchema" classname="com.rest.tests.RequestResponseBuilderTest" time="2.245">
-    <failure message="com.fasterxml.jackson.core.JsonParseException: Unrecognized token &apos;Method&apos;: was expecting (JSON String, Number, Array, Object or token &apos;null&apos;, &apos;true&apos; or &apos;false&apos;)&#10; at [Source: (StringReader); line: 1, column: 7]" type="io.restassured.module.jsv.JsonSchemaValidationException"><![CDATA[io.restassured.module.jsv.JsonSchemaValidationException: 
-com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'Method': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
- at [Source: (StringReader); line: 1, column: 7]
-	at com.rest.tests.RequestResponseBuilderTest.validateJsonSchema(RequestResponseBuilderTest.java:105)
-Caused by: com.fasterxml.jackson.core.JsonParseException: 
-Unrecognized token 'Method': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
- at [Source: (StringReader); line: 1, column: 7]
-	at com.rest.tests.RequestResponseBuilderTest.validateJsonSchema(RequestResponseBuilderTest.java:105)
-]]></failure>
+  <testcase name="validateJsonSchema" classname="com.rest.tests.RequestResponseBuilderTest" time="2.563">
     <system-out><![CDATA[Request method:	PATCH
 Request URI:	https://restful-booker.herokuapp.com/booking/15
 Proxy:			<none>
@@ -346,27 +336,37 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Cookie=token=06a4f54ae77040b
+Headers:		Cookie=token=c03d0a05090f252
 				Accept=*/*
 				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 src\main\resources\SendPayloadAsFile.json
-HTTP/1.1 405 Method Not Allowed
+HTTP/1.1 200 OK
 Server: Cowboy
 Connection: keep-alive
 X-Powered-By: Express
-Content-Type: text/plain; charset=utf-8
-Content-Length: 18
-Etag: W/"12-UGJMK66P4abaBlq0vKHJaCKuGCA"
-Date: Mon, 19 Jul 2021 13:55:14 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 175
+Etag: W/"af-/7hQfvGE2oPPIJr64Q8U+qnNDWo"
+Date: Sun, 25 Jul 2021 08:56:43 GMT
 Via: 1.1 vegur
 
-Method Not Allowed
+{
+    "firstname": "Abhishek",
+    "lastname": "Chauhan",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2013-02-23",
+        "checkout": "2014-10-23"
+    },
+    "additionalneeds": "Breakfast"
+}
 ]]></system-out>
   </testcase>
-  <testcase name="authToken" classname="com.rest.tests.RequestResponseSpecificationTest" time="1.709">
+  <testcase name="authToken" classname="com.rest.tests.RequestResponseSpecificationTest" time="1.607">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://restful-booker.herokuapp.com/auth
 Proxy:			<none>
@@ -383,14 +383,14 @@ Body:
     "username": "admin",
     "password": "password123"
 }
-Token: 509f37d33a498b7
+Token: 4144f69e812390c
 ]]></system-out>
   </testcase>
-  <testcase name="getBookingIds" classname="com.rest.tests.RequestResponseSpecificationTest" time="2.043">
-    <failure message="&#10;Expected: &quot;4&quot;&#10;     but: was &quot;12&quot;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+  <testcase name="getBookingIds" classname="com.rest.tests.RequestResponseSpecificationTest" time="1.636">
+    <failure message="&#10;Expected: &quot;4&quot;&#10;     but: was &quot;8&quot;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 
 Expected: "4"
-     but: was "12"
+     but: was "8"
 	at com.rest.tests.RequestResponseSpecificationTest.getBookingIds(RequestResponseSpecificationTest.java:56)
 ]]></failure>
     <system-out><![CDATA[Request method:	GET
@@ -407,7 +407,7 @@ Multiparts:		<none>
 Body:			<none>
 ]]></system-out>
   </testcase>
-  <testcase name="partialUpdateBooking" classname="com.rest.tests.RequestResponseSpecificationTest" time="2.051">
+  <testcase name="partialUpdateBooking" classname="com.rest.tests.RequestResponseSpecificationTest" time="1.607">
     <system-out><![CDATA[Request method:	PATCH
 Request URI:	https://restful-booker.herokuapp.com/booking/15
 Proxy:			<none>
@@ -416,7 +416,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
-				Cookie=token=509f37d33a498b7
+				Cookie=token=4144f69e812390c
 				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
 Multiparts:		<none>
@@ -425,18 +425,18 @@ Body:
     "firstname": "Abhishek",
     "lastname": "Chauhan"
 }
-Extract Response: Method Not Allowed
+Extract Response: {"firstname":"Abhishek","lastname":"Chauhan","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2013-02-23","checkout":"2014-10-23"},"additionalneeds":"Breakfast"}
 ]]></system-out>
   </testcase>
-  <testcase name="responseTimeUsingResponseOptions" classname="com.rest.tests.ValidateResponseTimeTest" time="2.027">
-    <system-out><![CDATA[Response time in ms using getTime():2027
-Response time in seconds using getTimeIn():2
+  <testcase name="responseTimeUsingResponseOptions" classname="com.rest.tests.ValidateResponseTimeTest" time="1.555">
+    <system-out><![CDATA[Response time in ms using getTime():1585
+Response time in seconds using getTimeIn():1
 ]]></system-out>
   </testcase>
-  <testcase name="responseTimeUsingValidatableResponseOptionsMethods" classname="com.rest.tests.ValidateResponseTimeTest" time="2.074">
-    <failure message="1 expectation failed.&#10;Expected response time was not a value less than &lt;1000L&gt; milliseconds, was 2014 milliseconds (2014 milliseconds)." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+  <testcase name="responseTimeUsingValidatableResponseOptionsMethods" classname="com.rest.tests.ValidateResponseTimeTest" time="1.48">
+    <failure message="1 expectation failed.&#10;Expected response time was not a value less than &lt;1000L&gt; milliseconds, was 1397 milliseconds (1397 milliseconds)." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
-Expected response time was not a value less than <1000L> milliseconds, was 2014 milliseconds (2014 milliseconds).
+Expected response time was not a value less than <1000L> milliseconds, was 1397 milliseconds (1397 milliseconds).
 	at com.rest.tests.ValidateResponseTimeTest.responseTimeUsingValidatableResponseOptionsMethods(ValidateResponseTimeTest.java:38)
 ]]></failure>
   </testcase>

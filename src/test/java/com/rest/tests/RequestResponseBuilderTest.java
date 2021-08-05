@@ -1,7 +1,5 @@
 package com.rest.tests;
 
-import io.restassured.RestAssured;
-import io.restassured.parsing.Parser;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.filter.log.LogDetail;

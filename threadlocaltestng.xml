@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest API Suite" parallel="classes" thread-count="2">
+    <test name="Parallel Test">
+        <classes>
+            <class name="com.rest.tests.datashare.ClassOneUsingThreadLocalTest"/>
+            <class name="com.rest.tests.datashare.ClassTwoUsingThreadLocalTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

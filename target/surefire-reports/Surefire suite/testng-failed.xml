@@ -5,7 +5,6 @@
     <classes>
       <class name="com.rest.tests.AutomateBookingAPITest">
         <methods>
-          <include name="partialUpdateBooking"/>
           <include name="getBookingIds"/>
         </methods>
       </class> <!-- com.rest.tests.AutomateBookingAPITest -->
@@ -15,14 +14,6 @@
           <include name="beforeClass"/>
         </methods>
       </class> <!-- com.rest.tests.RequestResponseSpecificationTest -->
-      <class name="com.rest.tests.RequestResponseBuilderTest">
-        <methods>
-          <include name="getBookingIds"/>
-          <include name="beforeClass"/>
-          <include name="sendJSONObjectAsMap"/>
-          <include name="validateJsonSchema"/>
-        </methods>
-      </class> <!-- com.rest.tests.RequestResponseBuilderTest -->
       <class name="com.rest.tests.ValidateResponseTimeTest">
         <methods>
           <include name="responseTimeUsingValidatableResponseOptionsMethods"/>
